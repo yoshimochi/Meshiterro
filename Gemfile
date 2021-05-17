@@ -54,3 +54,11 @@ gem "refile-mini_magick"
 
 # 4章でインストール
 gem 'kaminari', '~> 1.2.1'
+
+# bootstrapをインストール
+gem 'bootstrap', '~> 4.5'
+gem 'jquery-rails'
+gem 'font-awesome-sass', '~> 5.13'
+
+# ExecJS::ProgramError in Homes#topというエラーメッセージが表示されたためインストールした
+gem 'coffee-script-source', '1.8.0'
